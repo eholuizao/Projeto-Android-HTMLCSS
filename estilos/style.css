@@ -31,24 +31,69 @@ body {
 }
 
 header {
-    background-color: var(--verdeEscurao);
+    background: linear-gradient(to bottom, var(--verdeEscuro), var(--pretoVerde));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color: white;
     font-family: var(--fonte-destaque);
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 }
 
 header > p {
+    font: --fonte-padrao;
     color: white;
+    font-size: 1.2em;
+    max-width: 600px;
+    padding: 0px 10px 0px 10px;
+    margin: auto;
 }
 
 nav {
     background-color: var(--pretoVerde);
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
 }
+
+nav > a {
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+nav > a:hover {
+    background-color: var(--verdePadrao);
+    color: var(--pretoVerde);
+}
+
 
 main {
     background-color: white;
+    max-width: 1200px;
+    min-width: 300px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: justify;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
+}
+
+main img {
+    width: 100%;
+}
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
 }
 
 main h1 {
