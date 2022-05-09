@@ -4,4 +4,4 @@ Repositório criado para o projeto do site sobre Android feito para o curso de H
 
 - [x] HTML do projeto 
 - [x] CSS do projeto
-- [ ] Responsividade
+- [x] Responsividade
